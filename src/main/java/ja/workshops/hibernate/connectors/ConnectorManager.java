@@ -1,7 +1,7 @@
-package ja.workshop.hibernate.connectors;
+package ja.workshops.hibernate.connectors;
 
-import ja.workshop.hibernate.crud.CrudHandler;
-import ja.workshop.hibernate.crud.ICrudMethods;
+import ja.workshops.hibernate.crud.CrudHandler;
+import ja.workshops.hibernate.crud.ICrudMethods;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.service.spi.ServiceException;

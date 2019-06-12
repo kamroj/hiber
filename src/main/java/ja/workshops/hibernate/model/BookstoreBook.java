@@ -1,4 +1,4 @@
-package ja.workshop.hibernate.model;
+package ja.workshops.hibernate.model;
 
 import javax.persistence.*;
 

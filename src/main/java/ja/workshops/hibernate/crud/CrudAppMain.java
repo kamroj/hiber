@@ -1,20 +1,22 @@
-package ja.workshop.hibernate;
+package ja.workshops.hibernate.crud;
 
-import ja.workshop.hibernate.connectors.ConnectorManager;
-import ja.workshop.hibernate.connectors.H2Connector;
-import ja.workshop.hibernate.connectors.SessionConnector;
-import ja.workshop.hibernate.crud.CrudMethods;
-import ja.workshop.hibernate.model.Author;
+import ja.workshops.hibernate.connectors.ConnectorManager;
+import ja.workshops.hibernate.connectors.H2Connector;
+import ja.workshops.hibernate.connectors.SessionConnector;
+import ja.workshops.hibernate.model.Author;
 
 import java.util.Set;
 
 /**
  * @author Kamil Rojek
  */
-public class App {
+public class CrudAppMain {
     public static void main(String[] args) {
         Author author = new Author("Kamil", "R");
-        Set<Author> authors = Set.of(new Author("Jan", "Brzechwa"), new Author("OLA", "POD"));
+        Set<Author> authors = Set.of(
+                new Author("Jan", "Brzechwa"),
+                new Author("OLA", "POD")
+        );
 
 
         connect(new H2Connector())

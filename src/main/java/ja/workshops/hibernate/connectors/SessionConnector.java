@@ -1,9 +1,9 @@
-package ja.workshop.hibernate.connectors;
+package ja.workshops.hibernate.connectors;
 
-import ja.workshop.hibernate.model.Author;
-import ja.workshop.hibernate.model.Book;
-import ja.workshop.hibernate.model.Bookstore;
-import ja.workshop.hibernate.model.BookstoreBook;
+import ja.workshops.hibernate.model.Author;
+import ja.workshops.hibernate.model.Book;
+import ja.workshops.hibernate.model.Bookstore;
+import ja.workshops.hibernate.model.BookstoreBook;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;

@@ -1,4 +1,4 @@
-package ja.workshop.hibernate.connectors;
+package ja.workshops.hibernate.connectors;
 
 import org.hibernate.cfg.Environment;
 

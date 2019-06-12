@@ -1,4 +1,4 @@
-package ja.workshop.hibernate.query;
+package ja.workshops.hibernate.query;
 
 import org.hibernate.Session;
 
